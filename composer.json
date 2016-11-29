@@ -1,0 +1,24 @@
+{
+  "name": "santilorenzo/laravel-resource-generator",
+  "description": "Laravel resource generator from templates",
+  "authors": [
+    {
+      "name": "Lorenzo santi",
+      "email": "lorenzo.santi@me.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Santilorenzo\\Generator\\": "src/Generator/"
+    }
+  },
+  "autoload-dev": {
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1-dev"
+    }
+  }
+}
